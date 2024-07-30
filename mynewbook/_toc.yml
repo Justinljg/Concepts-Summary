@@ -1,0 +1,27 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Data Analyst
+    numbered: True 
+    chapters:
+    - file: Sampling
+    - file: Types
+    - file: Overfit
+    - file: StatTest
+    
+  - caption: Data Engineer
+    numbered: True 
+    chapters:
+    - file: Storage
+    - file: Star
+    - file: ACID
+    - file: OLAP
+    - file: DataLake
+
+  - caption: Deep Learning
+    numbered: True 
+    chapters:
+    - file: Attention
